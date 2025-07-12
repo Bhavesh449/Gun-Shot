@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maths - Gun Shot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 1rem 0;
+    }
+
+    header img {
+      height: 60px;
+      width: auto;
+    }
+
+    .title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      margin: 1.5rem 0 1rem;
+    }
+
+    .section-label {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.5rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 30px;
+      padding: 0 2rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card img {
+      width: 140px;
+      height: 90px;
+      border-radius: 12px;
+      object-fit: cover;
+      background-color: #eee;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
+    }
+
+    .card-title {
+      margin-top: 0.6rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: #aaa;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+ <header>
+  <a href="index.html">
+    <img src="logo.png" alt="Gun Shot Logo" />
+  </a>
+</header>
+
+  <div class="title">Maths</div>
+
+  <section class="cards">
+    <a href="maths-oneshot.html" class="card">
+      <img src="oneshot.png" alt="One Shot" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="card-title">One Shots</div>
+    </a>
+  </section>
+
+  <section class="cards">
+    <a href="maths-rapid.html" class="card">
+      <img src="rapid.png" alt="Rapid Revision" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="card-title">Rapid Revisions</div>
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2025 Gun Shot. All rights reserved.
+  </footer>
+
+</body>
+</html>

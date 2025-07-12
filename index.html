@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gun Shot - One Shot Lectures</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 1rem 0;
+    }
+
+    header img {
+      height: 60px;
+      width: auto;
+    }
+
+    .subjects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 30px;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .subject {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .subject img {
+      width: 140px;
+      height: 90px;
+      border-radius: 12px;
+      object-fit: cover;
+      background-color: #eee;
+      transition: transform 0.2s ease;
+    }
+
+    .subject:hover img {
+      transform: scale(1.05);
+    }
+
+    .subject-title {
+      margin-top: 0.6rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: #aaa;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body><header>
+  <a href="index.html">
+    <img src="logo.png" alt="Gun Shot Logo" />
+  </a>
+</header>
+<section class="subjects">
+    <a href="maths.html" class="subject">
+      <img src="maths.png" alt="Maths" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="subject-title">Maths</div>
+    </a>
+    <a href="science.html" class="subject">
+      <img src="science.png" alt="Science" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="subject-title">Science</div>
+    </a>
+    <a href="sst.html" class="subject">
+      <img src="sst.png" alt="SST" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="subject-title">SST</div>
+    </a>
+    <a href="english.html" class="subject">
+      <img src="english.png" alt="English" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="subject-title">English</div>
+    </a>
+    <a href="hindi.html" class="subject">
+      <img src="hindi.png" alt="Hindi" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="subject-title">Hindi</div>
+    </a>
+    <a href="sanskrit.html" class="subject">
+      <img src="sanskrit.png" alt="Sanskrit" onerror="this.onerror=null; this.src='gunshot.png';">
+      <div class="subject-title">Sanskrit</div>
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2025 Gun Shot. All rights reserved.
+  </footer>
+
+</body>
+</html>
